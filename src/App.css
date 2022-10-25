@@ -1,38 +1,53 @@
-.App {
+h1 {
+  color: #622FBD;
+  font-family: "Lucida Sans";
+  font-size: 3em;
+  text-shadow: 0 0 10px #fff, 0 0 3em #fff, 0 0 3em #fff; }
+
+h2 {
+  color: #622FBD;
+  font-family: "Lucida Sans";
+  font-size: 2em; 
   text-align: center;
-}
+  padding-top: 1em;}
+  
+a {
+  text-decoration: none; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
+  background-color: #8ddc8e;
+  font-family: Verdana, sans-serif;
+  font-style: normal; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  font-family: Verdana, sans-serif;
+  font-style: italic;
+  font-size: 1em;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content: center; }
 
-.App-link {
-  color: #61dafb;
-}
+img {
+  border-radius: 10%; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*Clases*/
+
+.disclaimer {
+  display: none; }
+
+.contenedor {
+  background-color: #5ab65c;
+  color: #622FBD;
+  font-style: normal;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 0.05em solid #fff;
+  border-radius: 1em; }
+
+  .logoTrebol {
+    padding-right: 1em;
+    padding-left:1em;
+    padding-top: 1em;
+    width: 150px;
+     }
+ 
